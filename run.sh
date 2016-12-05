@@ -24,4 +24,4 @@ echo "---
 
 cd ansible
 
-exec ansible-playbook main.yaml
+ansible-playbook main.yaml || true
